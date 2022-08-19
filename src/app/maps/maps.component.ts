@@ -1,5 +1,19 @@
-import { Component, OnInit } from '@angular/core';
 
+import {NgModule, Component, OnInit} from '@angular/core';
+
+
+
+/*@Component({
+    selector: 'app-root',
+    styles: [`
+    agm-map {
+      height: 300px;
+    }
+  `],
+    template: `
+  <agm-map [latitude]="40.748817" [longitude]="-73.985428"></agm-map>
+  `
+})*/
 declare const google: any;
 
 interface Marker {
